@@ -15,3 +15,9 @@ age[1] = 25;
 console.log(age.length);
 var positionKimAge = age.indexOf(25);
 console.log(positionKimAge);
+age.push(30); //add elements in the end
+age.push(50);
+age.unshift(12);//add elements at the begining
+age.pop()
+age.shift()
+console.log(age);
