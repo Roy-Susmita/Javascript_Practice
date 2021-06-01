@@ -18,6 +18,6 @@ console.log(positionKimAge);
 age.push(30); //add elements in the end
 age.push(50);
 age.unshift(12);//add elements at the begining
-age.pop()
-age.shift()
+age.pop() //delete elements from the end
+age.shift()//delete elements from the begining
 console.log(age);
