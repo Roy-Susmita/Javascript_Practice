@@ -25,12 +25,12 @@ doTheSum(90,78);
 
 // 
 
-/**function doubleAndSum(number){
+function doubleAndSum(number){
     var result = number * 2;
     return result;
 }
 var first = doubleAndSum(20);
 var second = doubleAndSum(30);
 var total = first + second;
-console.log(total);*/
-
+console.log(total);
+//  for multiline comment /** */
