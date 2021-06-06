@@ -1,3 +1,4 @@
+//Data object,Array
 var date = new Date();
 console.log(date);
 

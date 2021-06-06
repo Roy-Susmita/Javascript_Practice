@@ -1,3 +1,5 @@
+// Variable declaration,Type conversion,math
+
 var promise = "From now on i will work hard";
 console.log(promise.toLowerCase());
 console.log(promise.indexOf("work"));
@@ -13,7 +15,7 @@ console.log(number1 + number2);
 var Number1 = 0.009;
 var Number2 = 0.000;
 var total = Number1 + Number2;
-console.log(total.toFixed(5));//upto which decimall point you want to fix
+console.log(total.toFixed(5));//upto which decimal point you want to fix
 
 
 // math

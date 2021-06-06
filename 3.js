@@ -83,3 +83,40 @@ switch (foo) {
   default:
     console.log('Please pick a number from 0 to 5!');
 }
+
+//Block scope variables
+const action = 'say_hello';
+switch (action) {
+  case 'say_hello':{
+    let message = 'hello'; //let allows you to declare variables that are limited to the scope of a block statement
+    console.log(message);
+    break;
+  }
+  case 'say_hi':{
+    let message = 'hi';
+    console.log(message);
+    break;
+  }
+  default:
+    console.log('Empty action received.');
+    break;
+}
+
+//var & let
+function varTest() {
+  var x = 1;
+  {
+    var x = 2;  // same variable!
+    console.log(x);  // 2
+  }
+  console.log(x);  // 2
+}
+
+function letTest() {
+  let x = 1;
+  {
+    let x = 2;  // different variable
+    console.log(x);  // 2
+  }
+  console.log(x);  // 1
+}
